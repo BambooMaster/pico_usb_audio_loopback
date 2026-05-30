@@ -29,5 +29,5 @@ git clone https://github.com/BambooMaster/pico_usb_audio_loopback.git
 cd pico_usb_audio_loopback
 git submodule update --init
 mkdir build && cd build
-cmke .. && make -j4
+cmake .. && make -j4
 ```
